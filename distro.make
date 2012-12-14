@@ -6,8 +6,8 @@
 api = 2
 core = 7.x
 
-projects[drupal][type] = core
-projects[drupal][version] = "7"
+; Drupal core specification.
+includes[] = drupal-org-core.make
 
 projects[reb][type] = profile
 projects[reb][download][type] = git
