@@ -1,6 +1,8 @@
 api = 2
 core = 7.x
 
+includes[] = drupal-org.make
+
 ; Dependencies =================================================================
 
 projects[addressfield][type] = module
@@ -60,3 +62,9 @@ projects[commerce_paypal][version] = 1.x-dev
 projects[commerce_paypal][download][type] = git
 projects[commerce_paypal][download][url] = http://git.drupal.org/project/commerce_paypal.git
 projects[commerce_paypal][download][branch] = 7.x-1.x
+
+; REB dependencies
+
+projects[commerce_pay_in_person][type] = module
+projects[commerce_pay_in_person][subdir] = contrib
+projects[commerce_pay_in_person][version] = 1.0-beta1
